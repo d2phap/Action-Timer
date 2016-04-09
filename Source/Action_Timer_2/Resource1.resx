@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="N_restart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_restart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_STAND_BY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_STAND_BY.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_turn_off_monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_turn_off_monitor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_shut_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_shut_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_turn_off_monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_turn_off_monitor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_lock_COMPUTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_lock_COMPUTER.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_log_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_log_off.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AL_Normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AL_Normal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_SCREEN_SAVER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_SCREEN_SAVER.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_PROCESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_PROCESS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_Screen_Saver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_Screen_Saver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_EMPTY_RECYCLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_EMPTY_RECYCLE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_REMINDER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_REMINDER.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_STATUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_STATUS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_Empty_Recycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_Empty_Recycle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_ACTION_LIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_ACTION_LIST.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_FUNCTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_FUNCTION.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_hibernate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_hibernate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_LOCK_COMPUTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_LOCK_COMPUTER.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_UNHIBERNATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_UNHIBERNATE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_shut_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_shut_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AL_Success" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AL_Success.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AL_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AL_Error.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_SKIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_SKIP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_PAUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_PAUSE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_LOGOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_LOGOFF.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_QUICK_ACTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_QUICK_ACTION.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_UNHIBERNATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_UNHIBERNATE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_stand_by" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_stand_by.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_HIBERNATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_HIBERNATE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_ABOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_ABOUT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_restart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_restart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_lock_COMPUTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_lock_COMPUTER.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_STOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_STOP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_SYSTEM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_SYSTEM.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_RESTART" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_RESTART.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_UNHIBERNATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_UNHIBERNATE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_SETTING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_SETTING.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Screen_Saver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_Screen_Saver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_log_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_log_off.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_SHUT_DOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_SHUT_DOWN.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_hibernate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_hibernate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AL_Skip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AL_Skip.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_stand_by" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_stand_by.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Empty_Recycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_Empty_Recycle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_TAB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_TAB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_TURN_OFF_MONITOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_TURN_OFF_MONITOR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AL_NextTo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AL_NextTo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_UPDATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_UPDATE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_CANCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_CANCEL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_UPDATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_UPDATE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_CANCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_CANCEL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_UPDATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_UPDATE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_CANCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_CANCEL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_md_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_md_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_md_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_md_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_md_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_md_play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_md_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_md_stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_mm_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_mm_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_mm_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_mm_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_mm_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_mm_play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_mm_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_mm_stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_n_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_n_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_n_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_n_next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_n_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_n_play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio_n_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio_n_stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_ADD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_ADD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_ADD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_ADD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_ADD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_ADD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BackGround.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_START" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_START.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_PAUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_PAUSE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_SKIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_SKIP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_START" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_START.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_STOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_STOP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_PAUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_PAUSE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_SKIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_SKIP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_START" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_START.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_STOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_STOP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\status_pause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status_run" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\status_run.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\status_stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD_TURN_ON_MONITOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MD_TURN_ON_MONITOR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_TURN_ON_MONITOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MM_TURN_ON_MONITOR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_TURN_ON_MONITOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\N_TURN_ON_MONITOR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="md_minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\md_minimize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mm_minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mm_minimize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n_minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\n_minimize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

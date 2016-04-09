@@ -1,0 +1,13 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>publish\|C:\Documents and Settings\Duong Dieu Phap\Desktop\publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://phapsoftware.hotgoo.net/</InstallUrlHistory>
+    <SupportUrlHistory>http://www.phapsoftware.hotgoo.net|http://phapsoftware.hotgoo.net</SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

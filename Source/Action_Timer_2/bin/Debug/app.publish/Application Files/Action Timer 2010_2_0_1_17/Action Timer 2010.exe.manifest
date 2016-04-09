@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="2.0.1.17" name="Action Timer 2010.exe" publicKeyToken="91ac7af0f0158d31" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ATIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Action Timer 2010" version="2.0.1.17" publicKeyToken="91AC7AF0F0158D31" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Action Timer 2010.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Action Timer 2010.exe" size="1963008">
+      <assemblyIdentity name="Action Timer 2010" version="2.0.1.17" publicKeyToken="91AC7AF0F0158D31" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>u7Tu9y2EgRjakuqHp40PM1gIzXM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vi-VN\Action Timer 2010.resources.dll" size="479232">
+      <assemblyIdentity name="Action Timer 2010.resources" version="2.0.1.17" publicKeyToken="91AC7AF0F0158D31" language="vi-VN" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4EykpxzZ5VO5+WZMFfErtpvYY0Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Action Timer 2010.exe.config" size="1319">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>84C5PgtM76tg05GJOSWZEhXHiKU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ATIcon.ico" size="168035">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vyeZ550YIGZjEpBLClOYuQybiJM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN={34E45A78-FF67-4384-B8B7-322070CD391D}" issuerKeyHash="5394d788317d78e9af148f8a72c503be34f99d3c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gFva350T2xetmI82yfscuVMtZqU=</DigestValue></Reference></SignedInfo><SignatureValue>XKejFYuJGbRqY1ta+qkBdjaKazrDDvv3C6rv4Nd4Q7mXsIgZcFyVgraTy2FdFD6XpH88meQKjhAq/YK5EHkqzu9YKfs7WMttbyT69JICfzy1FXVfRhQWt46WsXM89RhdGJSMJtcL8vkgLc+RsZaxVgpay0+eqJ/UFGr6pfxCxxE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6JGaHYyPDnbknFjmLVArjpsCzg+XuFLaRz8nehkHtfL1iqOp0slk8u/ynVuF1MmsxPImCK6n5rx1KxlLF2EfM0JrGgZ2sW0L2XycXiNWTvspGE++JoIJf2OI18M+O9S04Xea1Cs+AODOslR5E7qABX7CrMvp2XE3jIyWqcN5k2c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5662d53b91cfbc9368f98ad17db139ddfda5b80" Description="" Url=""><as:assemblyIdentity version="2.0.1.17" name="Action Timer 2010.exe" publicKeyToken="91ac7af0f0158d31" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN={34E45A78-FF67-4384-B8B7-322070CD391D}</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wREq8JlqNs1lS1XFKH7j8H1chv4=</DigestValue></Reference></SignedInfo><SignatureValue>5vFzpiXuJNXcHDlWIBP9knjpY6rhdGj/KG0Baz5ae/iPXNm2SB0GCoxoBM5LD0woRVIvbx5A3MBr/y1YjCa1vYGQTQf2+uW23aCxXwXeMNZ3rsSdiP5ZmDtaAgkMChWw6TDw+aY6Sv2tzlfuxlYXGAooFpk6MpaaoAEHjDbVH2w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6JGaHYyPDnbknFjmLVArjpsCzg+XuFLaRz8nehkHtfL1iqOp0slk8u/ynVuF1MmsxPImCK6n5rx1KxlLF2EfM0JrGgZ2sW0L2XycXiNWTvspGE++JoIJf2OI18M+O9S04Xea1Cs+AODOslR5E7qABX7CrMvp2XE3jIyWqcN5k2c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICKTCCAZagAwIBAgIQdLt1RtyBz6lFzVhgpHiNWzAJBgUrDgMCHQUAMFcxVTBTBgNVBAMeTAB7ADMANABFADQANQBBADcAOAAtAEYARgA2ADcALQA0ADMAOAA0AC0AQgA4AEIANwAtADMAMgAyADAANwAwAEMARAAzADkAMQBEAH0wHhcNMTAwMjI2MTg0ODEyWhcNMTEwMjI3MDA0ODEyWjBXMVUwUwYDVQQDHkwAewAzADQARQA0ADUAQQA3ADgALQBGAEYANgA3AC0ANAAzADgANAAtAEIAOABCADcALQAzADIAMgAwADcAMABDAEQAMwA5ADEARAB9MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDokZodjI8OduScWOYtUCuOmwLOD5e4UtpHPyd6GQe18vWKo6nSyWTy7/KdW4XUyazE8iYIrqfmvHUrGUsXYR8zQmsaBnaxbQvZfJxeI1ZO+ykYT74mggl/Y4jXwz471LThd5rUKz4A4M6yVHkTuoAFfsKsy+nZcTeMjJapw3mTZwIDAQABMAkGBSsOAwIdBQADgYEA3bSfHM/bxIiqv2Avg3XilofC+J31ViYB3r/9xgdcJRY3pqMQgVpIS40T1CIQEKQVSUT+opbQJpnIVzgIePmKcvPI0Z1gCHj9rPUjoCQ0uZY+Iij6oVLp2T2JJtRUJzgCng9NGJksnr7ZrCenr+DUWApQxvjVqqwsB6rspYgnlkE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
